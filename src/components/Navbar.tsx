@@ -72,7 +72,7 @@ export default function Navbar({ openSidebar, setOpenSidebar }: NavbarProps) {
           </div>
           <div className="flex items-center space-x-2">
             <Link
-              href="https://github.com/"
+              href="https://github.com/ErkiKadhafi/deals-assessment-project"
               target="_blank"
               rel="noreferrer"
               className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
