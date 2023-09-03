@@ -2,14 +2,7 @@
 
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
-import ModalDetailProduct from "@/components/products/ModalDetailProduct";
-import { Dialog } from "@/components/ui/dialog";
-import type { Metadata } from "next";
 import { useState } from "react";
-
-export const metadata: Metadata = {
-  title: "Dashboard",
-};
 
 export default function RootLayout({
   children,
